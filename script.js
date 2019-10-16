@@ -78,7 +78,7 @@ header.appendChild(timeLeft);
 
 /*SET-INTERVAL*/
 let inGame = true;
-setInterval(timerFunction, 1000)
+setInterval(timerFunction, 5000)
 
 function timerFunction() {
   timer = timer - 1;
